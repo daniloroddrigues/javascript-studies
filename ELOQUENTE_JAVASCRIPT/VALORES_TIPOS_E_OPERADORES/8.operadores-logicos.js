@@ -16,8 +16,14 @@ console.log(false || false); // false
 console.log(false || true); // true
 
 // || (ou) tem menor prescendencia, depois && e assim
+
+// Precedencia maior significa que ele vai resolver a condição
+// por último?
+
 // por diante
-// bhá
+// resolve 1 + 1 == 2 ? true
+// depois 10 * 10 > 50 ? true
+// resultado true && true igual a true
 console.log(1 + 1 == 2 && 10 * 10 > 50); // true
 
 // Operadores tenários
