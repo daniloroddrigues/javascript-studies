@@ -1,4 +1,5 @@
 // (1) 6 tipos de valores no JavaScript
+// no JavaScript tudo é objeto menos undefined
 // 1. numero
 // 2. numeros indefinidos
 // 3. booleanos (true false)
@@ -14,7 +15,7 @@
 
 // (5) boleanos curto circuito
 //      false && oioioioio // false
-//      true || oioioioio // true
+//      true || oioioioio // timpeachmentrue
 
 // (6) codições tenária
 //      true ? 1 : 2; 1
@@ -25,6 +26,7 @@
 // == coerção de tipo
 // === verifica se é do tipo e também se são iguais de fato
 
+// Valores verdadeiros
 // (8) NaN, 0 e "", são tido como true
 //   8.1 - !NaN = true
 //   8.2 - !0 = true
