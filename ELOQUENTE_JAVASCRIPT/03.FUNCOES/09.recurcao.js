@@ -72,3 +72,26 @@ function findSolution(target) {
 
 console.log(findSolution(24));
 // → (((1 * 3) + 5) * 3)
+
+var list = {
+  id: 1,
+  numbers: [1, 2, 3, 4],
+  str: "Olá Lista",
+  strs: ["H1", "H2", "H3", "H4", "H5"],
+  listArray: {
+    id: 1,
+    name: "listArray",
+    myPhones: [
+      "(99)9999-9999",
+      "(99)9999-9999",
+      "(99)9999-9999",
+      "(99)9999-9999"
+    ]
+  }
+};
+
+function stripArray(args) {
+  if (typeof args == "object") {
+    console.log(args);
+  }
+}
